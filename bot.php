@@ -20,9 +20,6 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 	   		$receivetext = $event['message']['text'];
 
-      			$processtext = 'excise Bot'."\n";
-			$processtext .= 'excise reply';
-
 		 	 // Build message to reply back
 	    		$messages = [
 	   		'type' => 'text',
