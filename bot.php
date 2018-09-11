@@ -20,8 +20,7 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 	   		$receivetext = $event['message']['text'];
 			
-			$processtext = 'Sanny Bot'."\n";
-			$processtext .= $receivetext;
+			$processtext .= "ไง";
 
 		 	 // Build message to reply back
 	    		$messages = [
