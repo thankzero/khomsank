@@ -19,6 +19,9 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 	   		$receivetext = $event['message']['text'];
+			
+			$processtext = 'Sanny Bot'."\n";
+			$processtext .= $receivetext;
 
 		 	 // Build message to reply back
 	    		$messages = [
